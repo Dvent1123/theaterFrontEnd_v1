@@ -1,0 +1,203 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+    padding:0;
+    margin: 0;
+    background-color: #11110C;
+}
+
+/*Global*/
+
+.container{
+    width: 70%;
+    margin:auto;
+    overflow: hidden;
+    background-color: #6F3975;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background: #6F3975;
+    color: #11110C;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #C65BC3 3px solid;
+}
+
+header a{
+    color: #11110C;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .current a{
+    color: #AE5BB7;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/*Movie Grid*/
+
+.movieGrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+}
+
+.movie{
+    flex: 0 0 32%;
+    height: 250px;
+    margin-bottom: 5px;
+    background-color: #6F3975;
+}
+
+.movie:nth-child(3n){
+    background-color: #C65BC3;
+}
+
+.movieGrid .movie img{
+    width: 45%;
+    height: 70%;
+    padding-left: 28%;
+}
+
+.movieGrid .movie img,
+.movieGrid .movie h3,
+.movieGrid .movie p{
+    text-align: center;
+}
+
+/*Boxes*/
+#boxes {
+    max-width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    text-align: center;
+    background-color: #6F3975;
+    margin: auto;
+}
+
+#boxes .container{
+    display:flex;
+    justify-content: center;
+}
+
+#boxes .box img{
+    height: 150px;
+    width: 90px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+/*offers container in rewards page*/  
+.why .container,
+#faqs .container{
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.why .container h3,
+.why .container p,
+#showcase .container h3,
+#showcase .container p,
+#faqs .container h3,
+#faqs .container p{
+    margin: 15px;
+    text-align: center;;
+}
+
+.container#offersBoxes .boxes{
+    width: 32%;
+    display: inline-block;
+}
+
+#join .container#memberButtons .rewards{
+    padding-left: 170px;
+    width: 20%;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+/*footer*/
+footer{
+    padding-top: 20px;
+    color: #ffffff;
+    font-size: 8px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-container{
+    display: inline-block;
+    width: 100%;
+    background-color: #AE5BB7;    
+}
+
+
+footer li,
+footer a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 8px;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+.footer ul{
+    padding-top: 30px;
+    background-color: #AE5BB7;    
+    float: center;
+}
+
+footer #branding{
+    padding: 10px 10px 10px 10px;
+    background-color: #6F3975;
+    float:left;
+}

@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movies Havasu | Home</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./javascripts/carouselScript_v2.js"></script>
 </head>
-<body>
+
+<body>   
     <header>
         <div class="container">
             <div id="branding">
@@ -14,7 +16,7 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li class="current"><a href="index.html">Home</a></li>
                     <li><a href="rewards.html">Rewards</a></li>
                     <li><a href="theaters.html">Theaters</a></li>
                     <li><a href="about.html">About</a></li>
@@ -25,7 +27,7 @@
     </header>
 
     <section id="movieDisplay">
-        <div class="container">
+        <div class="movieGrid">
             <div class="movie">
                 <h3>Random Movie</h3>
                 <img src="./img/1917.jpg">
@@ -87,28 +89,33 @@
         </div>
     </section>
 
-    <section>
-        <div class="container">
-            <div class="boxes">
-                <img src="./img/OnceUponHollywood.jpg">
-                <h3>Random Movie</h3>
-                <p>Short Description</p>
-            </div>
-            <div class="boxes">
-                <img src="./img/TheGrey.jpg">
-                <h3>Random Movie</h3>
-                <p>Short Description</p>
-            </div>
-            <div class="boxes">
-                <img src="./img/NoTimeToDie.jpg">
-                <h3>Random Movie</h3>
-                <p>Short Description</p>
-            </div>
+    <section id="boxes">
+        <h2 class="title">Upcoming Films! </h3>
+        <div class="container"></div>
+            
+                <div class="box" class="mySlides">
+                    <h3>One Upon a Time in Hollywood</h3>
+                     <img src="./img/OnceUponHollywood.jpg">
+                </div>
+                <div class="box" class="mySlides">
+                    <h3>The Grey</h3>               
+                     <img src="./img/TheGrey.jpg">
+                </div>
+                <div class="box" class="mySlides">
+                    <h3>No Time To Die</h3>
+                    <img src="./img/NoTimeToDie.jpg">
+                </div>
+
         </div>
+
+        <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlide(1)">&#10095;</a>
+
     </section>
 
+
     <footer>
-        <div class="container">
+        <div class="footer-container">
             <div class="footer" id="branding">
                 <h1>Movies Havasu</h1>
             </div>
@@ -122,7 +129,7 @@
                 </ul>
             </nav>
         </div>
-        <div class="container">
+        <div class="Copyright">
             <p>Movies Havasu, Copyright &copy; 2020</p>
         </div>
     </footer>
