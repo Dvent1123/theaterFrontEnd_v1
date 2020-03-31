@@ -26,11 +26,14 @@
 
    <section id="contact">
        <div class="container">
-        <h3>Contact Us</h3>
-        <p>
-            Odio morbi quis commodo odio aenean. Suspendisse in est ante in. Sagittis aliquam malesuada bibendum arcu. Elit duis tristique sollicitudin nibh sit. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Faucibus pulvinar elementum integer enim neque. Ac auctor augue mauris augue neque. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Adipiscing diam donec adipiscing tristique risus nec. Consequat interdum varius sit amet mattis. Tincidunt tortor aliquam nulla facilisi cras fermentum. Eget nullam non nisi est sit amet facilisis magna etiam. Eget lorem dolor sed viverra ipsum nunc. Elementum integer enim neque volutpat ac tincidunt vitae semper. Ut sem nulla pharetra diam sit amet. Sed vulputate odio ut enim blandit.
-        </p>
-        <form>
+        <div class="contact-container">
+
+            <h3>Contact Us</h3>
+            <p>
+                Odio morbi quis commodo odio aenean. Suspendisse in est ante in. Sagittis aliquam malesuada bibendum arcu. Elit duis tristique sollicitudin nibh sit. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Faucibus pulvinar elementum integer enim neque. Ac auctor augue mauris augue neque. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Adipiscing diam donec adipiscing tristique risus nec. Consequat interdum varius sit amet mattis. Tincidunt tortor aliquam nulla facilisi cras fermentum. Eget nullam non nisi est sit amet facilisis magna etiam. Eget lorem dolor sed viverra ipsum nunc. Elementum integer enim neque volutpat ac tincidunt vitae semper. Ut sem nulla pharetra diam sit amet. Sed vulputate odio ut enim blandit.
+            </p>
+         </div>
+        <form class="submission-form">
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
         
@@ -38,13 +41,11 @@
             <input type="text" id="lname" name="lastname" placeholder="Your last name..">
         
             <label for="email">Email</label>
-            <select id="email" name="email">
-              
-            </select>
+            <input type="email" id="email" name="email">
         
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>        
-            <input type="submit" value="Submit">
+            <input class="button" type="submit" value="Submit" id="sendBtn">
         
           </form>
        </div>

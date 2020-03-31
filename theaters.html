@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movies Havasu | Home</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./javascripts/carouselScript_v2.js"></script>
 </head>
 <body>
     <header>
@@ -25,138 +26,157 @@
     </header>
 
     <section id="theaters">
-        <div class="container">
-            <div class="movie">
-                <img src="./img/1917.jpg">
+        <div class="container" id="movieContainer">
+            <div class="movieFull">
+                <img class="fullDetails" src="./img/1917.jpg">
+                <div class="fullDetails" id="text">
                 <h3>1917</h3>
                 <p>Room Playing: 1</p>
                 <p>Rating: A</p>
                 <p>Showtimes: </p>
-                    <li>
-                        <ul>10:10</ul>
-                        <ul>12:00</ul>
-                        <ul>5:20</ul>
-                        <ul>3:40</ul>
-                        <ul>4:10</ul>
-                    </li>
+                        <ul>
+                            <li>10:10</li>
+                            <li>12:00</li>
+                            <li>5:20</li>
+                            <li>3:40</li>
+                            <li>4:10</li>
+                        </ul>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio ut sem nulla pharetra diam. Convallis a cras semper auctor neque. Ornare lectus sit amet est placerat in. Ut sem viverra aliquet eget sit. Aliquet lectus proin nibh nisl. Consequat interdum varius sit amet. Risus ultricies tristique nulla aliquet enim. Proin sed libero enim sed. </p>
             </div>
-            <div class="movie">
-                <img src="./img/BirdsofPrey.jpg">
+            </div>
+            <div class="movieFull">
+                <img class="fullDetails" src="./img/BirdsofPrey.jpg">
+                <div class="fullDetails" id="text">
                 <h3>Birds of Prey</h3>
                 <p>Room Playing: 2</p>
                 <p>Rating: F</p>
                 <p>Showtimes: </p>
-                <li>
-                    <ul>5:00</ul>
-                    <ul>6:10</ul>
-                    <ul>4:00</ul>
-                    <ul>1:30</ul>
-                    <ul>11:20</ul>
-                </li>
+                    <ul>
+                        <li>5:00</li>
+                        <li>6:10</li>
+                        <li>4:00</li>
+                        <li>1:30</li>
+                        <li>11:20</li>
+                    </ul>
                 <p>roin fermentum leo vel orci porta non pulvinar. Iaculis at erat pellentesque adipiscing commodo elit at imperdiet. Semper feugiat nibh sed pulvinar proin. Nulla porttitor massa id neque aliquam vestibulum morbi. Enim tortor at auctor urna. Eu sem integer vitae justo eget. </p>            </div>
-            <div class="movie">
-                <img src="./img/BlackPanther.jpg">
+            </div>
+                <div class="movieFull">
+                <img class="fullDetails" src="./img/BlackPanther.jpg">
+                <div class="fullDetails" id="text">
                 <h3>Black Panther</h3>
                 <p>Room Playing: 3</p>
                 <p>Rating: R</p>
                 <p>Showtimes: </p>
-                <li>
-                    <ul>4:00</ul>
-                    <ul>1:20</ul>
-                    <ul>6:00</ul>
-                    <ul>8:50</ul>
-                    <ul>4:00</ul>
-                </li>
+                    <ul>
+                        <li>4:00</li>
+                        <li>1:20</li>
+                        <li>6:00</li>
+                        <li>8:50</li>
+                        <li>4:00</li>
+                    </ul>
                 <p>Egestas sed sed risus pretium quam. Nunc eget lorem dolor sed viverra. Neque convallis a cras semper auctor neque vitae. Nunc sed id semper risus in hendrerit. Nisi est sit amet facilisis. Tincidunt vitae semper quis lectus nulla at volutpat. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque. </p>            </div>
-            <div class="movie">
-                <img src="./img/geminiMan.jpg">
+            </div>
+                <div class="movieFull">
+                <img class="fullDetails" src="./img/geminiMan.jpg">
+                <div class="fullDetails" id="text">
                 <h3>Gemini Man</h3>
                 <p>Room Playing: 4</p>
                 <p>Rating: E</p>
                 <p>Showtimes: </p>
-                <li>
-                    <ul>4:00</ul>
-                    <ul>1:00</ul>
-                    <ul>8:10</ul>
-                    <ul>9:30</ul>
-                    <ul>5:00</ul>
-                    <ul>3:45</ul>
-                    <ul>4:00</ul>
-                </li>
+                    <ul>
+                        <li>4:00</li>
+                        <li>1:00</li>
+                        <li>8:10</li>
+                        <li>9:30</li>
+                        <li>5:00</li>
+                        <li>3:45</li>
+                        <li>4:00</li>
+                    </ul>
                 <p>Mauris pharetra et ultrices neque ornare aenean. Justo eget magna fermentum iaculis eu non. Id velit ut tortor pretium viverra suspendisse. A erat nam at lectus urna duis convallis. Pellentesque habitant morbi tristique senectus et netus.</p>            </div>
-            <div class="movie">
-                <img src="./img/IronMan.jpg">
+            </div>
+                <div class="movieFull">
+                <img class="fullDetails" src="./img/IronMan.jpg">
+                <div class="fullDetails" id="text">
                 <h3>Iron Man</h3>
                 <p>Room Playing: 5</p>
                 <p>Rating: S</p>
                 <p>Showtimes: </p>
-                <li>
-                    <ul>7:00</ul>
-                    <ul>4:35</ul>
-                    <ul>2:00</ul>
-                    <ul>1:25</ul>
-                    <ul>6:00</ul>
-                </li>
+                    <ul>
+                        <li>7:00</li>
+                        <li>4:35</li>
+                        <li>2:00</li>
+                        <li>1:25</li>
+                        <li>6:00</li>
+                    </ul>                    
                 <p>Ornare arcu odio ut sem nulla. Nunc faucibus a pellentesque sit amet. Rutrum tellus pellentesque eu tincidunt tortor. Rhoncus est pellentesque elit ullamcorper dignissim cras. Ipsum dolor sit amet consectetur adipiscing elit. A iaculis at erat pellentesque. Interdum velit laoreet id donec ultrices. </p>            </div>
-            <div class="movie">
-                <img src="./img/JohnWick.jpg">
+            </div>
+                <div class="movieFull">
+                <img class="fullDetails" src="./img/JohnWick.jpg">
+                <div class="fullDetails" id="text">
                 <h3>John Wick</h3>
                 <p>Room Playing: 6</p>
                 <p>Rating: Q</p>
                 <p>Showtimes: </p>
-                <li>
-                    <ul>10:00</ul>
-                    <ul>5:15</ul>
-                    <ul>11:40</ul>
-                    <ul>9:25</ul>
-                    <ul>4:00</ul>
-                    <ul>6:45</ul>
-                </li>
+                <ul>
+                    <li>10:00</li>
+                    <li>5:15</li>
+                    <li>11:40</li>
+                    <li>9:25</li>
+                    <li>4:00</li>
+                    <li>6:45</li>
+                </ul>
                 <p>Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Integer eget aliquet nibh praesent tristique magna. Posuere morbi leo urna molestie. Ut aliquam purus sit amet luctus venenatis lectus magna fringilla.</p>            </div>
-            <div class="movie">
-                <h3>Random Movie</h3>
-                <img src="./img/Jumanji.jpg">
+            </div>
+                <div class="movieFull">
+                <img class="fullDetails" src="./img/Jumanji.jpg">
+                <div class="fullDetails" id="text">
                 <h3>Jumanji</h3>
                 <p>Room Playing: 7</p>
                 <p>Rating: I</p>
                 <p>Showtimes: </p>
-                <ul>7:00</ul>
-                <ul>4:30</ul>
-                <ul>3:25</ul>
-                <ul>1:15</ul>
-                <ul>8:00</ul>
+                <ul>
+                    <li>7:00</li>
+                    <li>4:30</li>
+                    <li>3:25</li>
+                    <li>1:15</li>
+                    <li>8:00</li>
+                </ul>
                 <p>Tincidunt augue interdum velit euismod. Sociis natoque penatibus et magnis dis. In fermentum posuere urna nec tincidunt praesent semper. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Nunc sed blandit libero volutpat sed. </p>            </div>
-            <div class="movie">
-                <img src="./img/JurassicPark.jpg">
+            </div>
+                <div class="movieFull">
+                <img class="fullDetails" src="./img/JurassicPark.jpg">
+                <div class="fullDetails" id="text">
                 <h3>Jurassic Park</h3>
                 <p>Room Playing : 8</p>
                 <p>Rating: O</p>
                 <p>Showtimes: </p>
-                <li>
-                    <ul>1:20</ul>
-                    <ul>8:00</ul>
-                    <ul>3:00</ul>
-                    <ul>1:00</ul>
-                    <ul>2:00</ul>
-                    <ul>4:00</ul>
-                    <ul>3:50</ul>
-                </li>
+                <ul>
+                    <li>1:20</li>
+                    <li>8:00</li>
+                    <li>3:00</li>
+                    <li>1:00</li>
+                    <li>2:00</li>
+                    <li>4:00</li>
+                    <li>3:50</li>
+                </ul>
                 <p>Adipiscing enim eu turpis egestas pretium aenean. In iaculis nunc sed augue lacus viverra vitae congue. Interdum varius sit amet mattis. Amet justo donec enim diam vulputate ut pharetra sit. Eu non diam phasellus vestibulum lorem sed risus.</p>            </div>
-            <div class="movie">
-                <img src="./img/NiceGuys.jpg">
+            </div>
+                <div class="movieFull">
+                <img class="fullDetails" src="./img/NiceGuys.jpg">
+                <div class="fullDetails" id="text">
                 <h3>Nice Guys</h3>
                 <p>Room Playing: 9</p>
                 <p>Rating: P</p>
                 <p>Showtimes: </p>
-                <li>
-                    <ul>7:40</ul>
-                    <ul>4:00</ul>
-                    <ul>3:30</ul>
-                    <ul>1:55</ul>
-                    <ul>8:20</ul>
-                </li>
-                <p>Auctor augue mauris augue neque. Nulla facilisi nullam vehicula ipsum. Lacinia at quis risus sed vulputate odio. Imperdiet sed euismod nisi porta lorem. Nunc non blandit massa enim nec dui.</p>            </div>
+                <ul>
+                    <li>7:40</li>
+                    <li>4:00</li>
+                    <li>3:30</li>
+                    <li>1:55</li>
+                    <li>8:20</li>
+                </ul>            
+            <p>Auctor augue mauris augue neque. Nulla facilisi nullam vehicula ipsum. Lacinia at quis risus sed vulputate odio. Imperdiet sed euismod nisi porta lorem. Nunc non blandit massa enim nec dui.</p>            </div>
+        </div>
             <form>
                 <fieldset>
                    <p>
@@ -173,44 +193,48 @@
         </div>
     </section>
 
-    <section>
-        <div class="container">
-            <div class="boxes">
-                <img src="./img/OnceUponHollywood.jpg">
-                <h3>Random Movie</h3>
-                <p>mperdiet massa tincidunt nunc pulvinar. Massa tempor nec feugiat nisl. Orci sagittis eu volutpat odio facilisis mauris sit amet massa. </p>
-            </div>
-            <div class="boxes">
-                <img src="./img/TheGrey.jpg">
-                <h3>Random Movie</h3>
-                <p>In nulla posuere sollicitudin aliquam ultrices sagittis. Vulputate odio ut enim blandit volutpat maecenas. </p>
-            </div>
-            <div class="boxes">
-                <img src="./img/NoTimeToDie.jpg">
-                <h3>Random Movie</h3>
-                <p>Lectus mauris ultrices eros in cursus turpis massa tincidunt. Molestie nunc non blandit massa enim nec. Tempus quam pellentesque nec nam aliquam. </p>
-            </div>
-        </div>
-    </section>
+    <section id="boxes">
+        <h2 class="title">Upcoming Films! </h2>
+        <div class="container"></div>
+            
+                <div class="box" class="mySlides">
+                    <h3>One Upon a Time in Hollywood</h3>
+                     <img src="./img/OnceUponHollywood.jpg">
+                </div>
+                <div class="box" class="mySlides">
+                    <h3>The Grey</h3>               
+                     <img src="./img/TheGrey.jpg">
+                </div>
+                <div class="box" class="mySlides">
+                    <h3>No Time To Die</h3>
+                    <img src="./img/NoTimeToDie.jpg">
+                </div>
 
-    <footer>
-        <div class="footer-container">
-            <div class="footer" id="branding">
-                <h1>Movies Havasu</h1>
+        </div>
+
+        <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlide(1)">&#10095;</a>
+
+    </section>
+    
+        <footer>
+            <div class="footer-container">
+                <div class="footer" id="branding">
+                    <h1>Movies Havasu</h1>
+                </div>
+                <nav class="footer">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rewards.html">Rewards</a></li>
+                        <li><a href="theaters.html">Theaters</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="footer">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="rewards.html">Rewards</a></li>
-                    <li><a href="theaters.html">Theaters</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="login.html">Login</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="Copyright">
-            <p>Movies Havasu, Copyright &copy; 2020</p>
-        </div>
-    </footer>
+            <div class="Copyright">
+                <p>Movies Havasu, Copyright &copy; 2020</p>
+            </div>
+        </footer>
 </body>
 </html>

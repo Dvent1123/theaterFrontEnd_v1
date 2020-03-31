@@ -119,6 +119,43 @@ header a:hover{
     width: 90px;
 }
 
+/*rewards page styling*/
+
+#theaters{
+    width: 100%;
+    margin: auto;
+}
+
+#theaters .movieFull{
+    display: block;
+    width: 100%;
+    padding:40px 40px 40px 40px;
+}
+
+.movieFull .fullDetails{
+    display: inline-block;
+    width:40%;
+    height: 100%;
+    padding-right: 50px;
+    padding-top: 10px;
+    vertical-align: text-top;
+    font-size: 12px;
+}
+
+.fullDetails#text{
+    width: 40%;
+    max-height: 50%;
+}
+
+#theaters .fullDetails#text h3,
+#theaters .fullDetails#text p,
+#theaters .fullDetails#text ul{
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+
+
 /* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
@@ -163,6 +200,61 @@ header a:hover{
     display: inline-block;
     margin-bottom: 25px;
 }
+
+/*about page*/
+
+#contact .contact-container{
+    padding: 50px;
+    font-size: 16px;
+}
+/*Submission form*/
+.submission-form{
+    max-width: 500px;
+    max-height: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.submission-form label{
+    padding: 5px;
+    display: block;
+    font-size: 16px;
+}
+
+.submission-form input,
+.submission-form text,
+.submission-form textarea{
+    width: 100%;
+}
+
+#sendBtn,
+#loginBtn{
+    border: 0;
+    background-color:#C65BC3;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    width: auto;
+    height: auto;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+#sendBtn:hover,
+#loginBtn:hover{
+    background-color: #AE5BB7;
+}
+
+/*sign in*/
+#login .container{
+    display: block;
+    align-content: center;
+}
+#login h3{
+    font-size: 24px;
+    padding-left: 45%;
+    }
 
 /*footer*/
 footer{
